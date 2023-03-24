@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(39, 39, 39, 0.76);
+    color: #fff;
+}
+
+.banner{
+    height: 850px;
+    width: 100%;
+    background:url('../assets/images/banner.png') ;
+    background-position: top;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+
+.banner .navbar{
+    margin-top: 1%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 15%;
+}
+
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav li a{
+color: #dbdbdb
+}
+
+.banner .info h4{
+    margin-top: 100px;
+}
+
+.banner .info a{
+    color: #161616;
+    background: #3bc0f5;
+}
+
+.banner .info button-inverted{
+    color: white;
+}
+
+/* input[type=search] {
+    background-color: #2b2b2bab;
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid rgb(15, 209, 209);
+} */
+
+input[type=search] {
+    background-color: #2b2b2bab;
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid rgb(15, 209, 209);
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="%23FFFFFF" d="M16.287 14.903a8.261 8.261 0 1 0-.662.662l4.303 4.303a1 1 0 0 0 1.414-1.414l-4.303-4.303zm-6.026 0a6.265 6.265 0 1 1 6.265-6.265 6.265 6.265 0 0 1-6.265 6.265z"%3E%3C/path%3E%3C/svg%3E');
+    background-position: calc(100% - 12px) center;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+}
+
+input[type=search]::placeholder {
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.video{
+    margin-left: 680px;
+    margin-top: -80px;
+    display: inline-block;
+    
+}
+
+.video iframe{
+    z-index: 10 !important;
+}
+
+.video-text{
+    width: 600px;
+    height: auto;
+    background-color: #0c151bb7;
+    padding: 16px;
+    padding-left: 90px;
+    margin-left: -75px;
+    margin-top: -150px;
+    display: inline-block;
+    z-index: 0 !important;
+
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay i {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+  }

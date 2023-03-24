@@ -1,0 +1,78 @@
+.banner{
+    height: 850px;
+    width: 100%;
+    background-color: rgb(14, 14, 22);
+}
+
+input[type=search] {
+    background-color: #2b2b2bab;
+    border-radius: 25px;
+    padding: 4px;
+    border: 1px solid rgb(15, 209, 209);
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="%23FFFFFF" d="M16.287 14.903a8.261 8.261 0 1 0-.662.662l4.303 4.303a1 1 0 0 0 1.414-1.414l-4.303-4.303zm-6.026 0a6.265 6.265 0 1 1 6.265-6.265 6.265 6.265 0 0 1-6.265 6.265z"%3E%3C/path%3E%3C/svg%3E');
+    background-position: calc(100% - 12px) center;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+}
+
+.banner .navbar{
+    margin-top: 1%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-weight: 700;
+    margin-left: 15%;
+}
+
+.banner .nav{
+    margin-right: 10%;
+}
+
+.banner .nav li a{
+color: #dbdbdb
+}
+
+.banner .info h4{
+    margin-top: 100px;
+}
+
+.banner .info a{
+    color: #dbdbdb;
+    background: #3bc0f5;
+}
+
+.banner .info button-inverted{
+    color: white;
+}
+
+.container{
+    margin-top: -600px;
+    background-color: rgb(14, 14, 22);
+}
+
+.card {
+    background-color: rgb(14, 14, 22);
+    color: white;
+  }
+
+  .button-email {
+    background-color: #001b38;
+    border-color: #001b38;
+    color: #fff;
+  }
+  .button-phone {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+
+  .button-primary{
+    background-color: aqua;
+    color: black;
+    margin-left: 400px;
+  }
+
+  .card-two{
+    background-color: rgb(30, 30, 43);
+  }
